@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', href='/stylesheets/404.css')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
+  body
+    block content
+        .container
+            .row.content
+              .col-lg-12
+              .col-lg-12
+                h1 404
+                h2 Oops, the page you're looking for does not exist.
+                p You may want to head back to the homepage.
+                  br
+                  |    If you think something is broken, report a problem.
+                  br
+                span.btn RETURN HOME
+                span.btn REPORT PROBLEM
+        .bg-img
