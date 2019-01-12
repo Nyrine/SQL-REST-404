@@ -1,0 +1,8 @@
+{
+  "connection":{
+    "server"  : "db.nkm.xn",
+    "userName": "sa",
+    "password": "orFe#3<%Ut5?kjbj",
+    "options": { "encrypt": false, "database": "StuK_DB" }
+  }
+}
