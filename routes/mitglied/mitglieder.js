@@ -96,5 +96,5 @@ router.delete('/:id', function (req, res) {
         .exec(res);
 
 });
-
+//was geht
 module.exports = router;

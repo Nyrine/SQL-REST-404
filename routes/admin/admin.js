@@ -20,4 +20,5 @@ router.get('/M/:id', function (req, res) {
         .param('id', req.params.id, TYPES.Int)
         .into(res.type('json'), '{}');
 });
+//was geht
 module.exports = router;
